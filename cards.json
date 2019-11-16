@@ -1,0 +1,34 @@
+[
+    {
+        "name": "renewable_energy_1",
+        "character": "Activist",
+        "description":"We demand some land be used for renewable energy production, such as wind turbines or solar panels",
+        
+        "choices": {
+                "no": {
+                    "text":"No, this is not our priority",
+                    "pollution": -1,
+                    "Environmental Awareness":-1,
+                    "Activist":-1,
+                    "add_cards": ["Renewable Energy (2)"]
+                },
+                "yes": {
+                    "text":"Absolutely, we support this",
+                    "Population happiness":2,
+                    "Money":-2,
+                    "Pollution":-1,
+                    "Environmental Awareness":1,
+                    "Activist":-1
+                }
+        },
+
+        "requirements": {
+            "Job level": 1,
+            "Person Name": [5]
+        },
+        
+        "followup": null
+    },
+
+    {}
+]
